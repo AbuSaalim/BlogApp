@@ -1,4 +1,3 @@
-import React from "react";
 import { Avatar, Button, Dropdown, Navbar, TextInput } from "flowbite-react";
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -45,7 +44,7 @@ export default function Header() {
             arrowIcon={false}
             inline
             label={
-              <Avatar alt="User" img={currentUser.profilePicture} rounded />
+              <Avatar alt="ser" img={currentUser.profilePicture} rounded />
             }
           >
             <Dropdown.Header>
